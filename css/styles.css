@@ -1,0 +1,291 @@
+body {
+    width: 1440px;
+    gap: 16px;
+    white-space: nowrap;
+    background-color: #f5eede;
+    color: #0e0404;
+    font-family: raleway;
+}
+ul, ol, li{ list-style: none;}
+a { color: #166ddf; }
+
+/* CABEÇALHO */
+.cabecalho{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 20px 15px;
+    margin: 3px -189px -6px 67px;
+    background-color: #7dc1e0;
+}
+.cabecalho_logo {
+    width: 168px;
+    display: flex;
+    gap: 16px;
+    padding: 4px 4px;
+    color: #166ddf;
+}
+.cabecalho_menu {
+    width: 800px;
+    height: 20px;
+    padding: 3px 2px;
+    gap: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apresentacao {
+    width:450px;
+    height: 246px;
+    margin: 190px ;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.apresentacao_bio {
+    width: 878px;
+    text-wrap: wrap;
+}
+.foto_perfil {
+    width: 250px;
+    height: 260px;
+    border-radius: 50%;
+    border: 8px  #7dc1e0;
+    border-style: groove;
+    margin: -190px 875px ;
+    position: absolute;
+    padding: 5px;
+ }
+.apresentacao_redes_network {
+    width:450px;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    border: solid #7dc1e0  3px;
+    gap: 4px;
+}
+/* Animação para o botões*/
+.btn-redes {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.2s;
+} 
+.btn-redes:hover {
+    transform: scale(1.1); /* Animação de aumento */
+    background: #abe0f8;/* Mude para a cor desejada */
+}
+
+h3 { color: #166ddf;}
+.sobre_mim {
+    width:1136px;
+    height: 40px;
+    text-wrap: wrap;
+    margin: 190px;
+    margin-top: -30px;
+    text-align: justify;
+}
+
+.skills {
+    height: 100px;
+    text-align: center;
+    margin: 192px;
+}
+.skills__box {
+    display: flex;
+    justify-content: space-between;
+    width: 1148px;
+    background-color: #7dc1e0;
+}
+
+.hobbies {
+    text-align: center;
+    height: 60px;
+    margin: 185px; 
+}
+.hobbies__line {
+    margin-top: 50px ;
+    width: 1140px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.academi {
+    width: 1136px;
+    height: 180px;
+    padding: 8px;
+    margin: 40px;
+    text-align: center;
+}
+.academi__title { margin-left: 201px; }
+.academi__courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.academi__courses__box {
+    width: 468px;
+    height: 86px;
+    text-align: center;
+}
+.medida {
+    width: 180px;
+    height: 80px;
+}
+
+.experience {
+    margin-left: 20px;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    margin-right: -100px;
+    text-align: center;
+}
+.experience__section__title {
+    margin-left:-105px;
+}
+.experience__info {
+    width: 1136px;
+    height: 286px;
+    margin-top: 3%;
+    margin-left: 6%;
+    display: flex;
+    gap: 150px;
+}
+.experience__img__codificador {
+    width: 540px;
+    max-width: 550px;
+    border: dashed 3px  #f5dc51;
+    border-radius: 10px;
+}
+.experience__img__geek{
+    width: 540px;
+    max-width: 550px;
+    height: 248px;
+    border: dashed 3px  #f5dc51;
+    border-radius: 10px;
+}
+button {
+    width: 121px;
+    height:28px;
+    vertical-align: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: solid 2px  #7dc1e0;
+    background: #166ddf;
+    color: #abe0f8 ;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background: #abe0f8;
+}
+
+.formcontato {
+    width: 100%;
+    margin: 162px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    opacity: 0px;
+}
+.formcontato__contacto {
+    width: 1136px;
+    height: 530px;
+    padding: 64px 0px 0px 0px;
+    display: flex;
+    gap: 56px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+}
+.formcontato__img {
+    width: 550px;
+    height: 650px;
+    border-radius: 10px;
+}
+
+.formcontato__text {
+    width: 530px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    line-height: 5.78px;
+    margin-top: -23px;
+}
+.formcontato__title {
+    font-size: 20px;
+    color: #166ddf;
+    align-items: flex-start;
+}
+.formcontato__subtext {
+    text-wrap: wrap;
+    text-align: left;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 19px;
+}  
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+}
+.formcontato__textarea{
+    height: 132px;
+}
+.formcontato__input, .formcontato__textarea {
+    width: 530px ;
+    padding: 9px;
+    border: 1px solid #7dc1e0;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #0e0404;
+}
+::placeholder{
+    color: #166ddf;
+}
+.formcontato__botao {
+    width: 180px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 180px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+footer {
+    width: 1440px;
+    height: 102px;
+    margin-left: 67px;
+    margin-right: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+    color: #166ddf;
+    background-color: #7dc1e0;
+}
+
+.error {
+    color: #f006f8;
+    font-size: 0.875em;
+    margin-top: 5px;
+}
+

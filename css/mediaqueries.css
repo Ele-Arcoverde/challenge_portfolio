@@ -1,0 +1,55 @@
+@media (min-width: 425px) and (max-width: 768px) {
+    html{  
+        width: 98%;
+        height: auto;}
+    body{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1%;
+        padding: 5px;
+        font-size: 16px;
+        text-align: justify;
+        text-wrap: wrap;
+        align-items: center;
+    }
+    .cabecalho {width: 85%;}
+    .skills__box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hobbies__line {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .academi__courses {
+        align-items: center;
+    }
+    .experience__info {
+        margin: 1%;
+        padding: 2%;
+        align-items:center;
+        flex-direction: column;
+    }
+    .formcontato__contacto {
+        margin: -10%;
+        margin-top: 40%;
+        margin-bottom:60%;
+        padding: 2px;
+        align-items:center;
+        flex-direction: column;
+    }
+    .formcontato__img {
+        width: -40%;
+        height: -70%;
+        align-items: left;
+    } 
+    footer {
+        text-align: center;
+        margin-right: 7%;
+    }
+}
+
